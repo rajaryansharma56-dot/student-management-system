@@ -1,86 +1,119 @@
 # ⚡ STUDENT MANAGEMENT SYSTEM
 
-### `Efficient Student Records · Academic Data · C++`
+### `SMART RECORDS. SIMPLE WORKFLOWS. C++ POWER.`
 
-A student management application built with **C++** and an interactive **HTML web interface**, designed to organize student information and simplify basic academic record management.
+<p align="center">
+  <img src="https://img.shields.io/badge/PROJECT-STUDENT%20MANAGEMENT-00D9FF?style=for-the-badge&logo=github&logoColor=white" alt="Project Badge"/>
+  <img src="https://img.shields.io/badge/LANGUAGE-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++ Badge"/>
+  <img src="https://img.shields.io/badge/WEB-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 Badge"/>
+  <img src="https://img.shields.io/badge/DEPLOYMENT-GITHUB%20PAGES-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages Badge"/>
+</p>
+
+<p align="center">
+  A beginner-friendly student record management project combining a menu-driven C++ program with a web interface hosted on GitHub Pages.
+</p>
 
 <p align="center">
   <a href="https://rajaryansharma56-dot.github.io/student-management-system/">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Demo"/>
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_DEMO-00D9FF?style=for-the-badge" alt="Launch Live Demo"/>
   </a>
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/GITHUB_PAGES-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
+  <a href="https://github.com/rajaryansharma56-dot/student-management-system">
+    <img src="https://img.shields.io/badge/VIEW_SOURCE_CODE-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Source Code"/>
+  </a>
 </p>
 
 ---
 
-## 🌐 LIVE APPLICATION
+## 🖥️ APPLICATION PREVIEW
 
-**Explore the web interface:**
+<p align="center">
+  <img src="./student-management-preview.png" alt="Student Management System Web Interface" width="900"/>
+</p>
 
-### [🚀 Launch Student Management System](https://rajaryansharma56-dot.github.io/student-management-system/)
-
-The web interface is hosted using GitHub Pages.
+<p align="center">
+  <i>A preview of the project's web interface.</i>
+</p>
 
 ---
 
-## 🎯 PROJECT OVERVIEW
+## 🎯 ABOUT THE PROJECT
 
-The project explores student record management through a C++ console application and a separately hosted HTML interface.
+The **Student Management System** is a programming project focused on organizing student information and exploring simple academic record management workflows.
 
-**Core objectives**
-- Organize student information.
-- Simplify access to academic records.
-- Practice programming fundamentals through a practical application.
-- Present the project through a publicly accessible web interface.
+The project contains two components:
+
+- **C++ application:** A console-based program for managing student records.
+- **HTML interface:** A browser-based interface published using GitHub Pages.
+
+This project demonstrates practical use of programming fundamentals, arrays, loops, conditional statements, user input, and basic web development.
+
+> **Architecture note:** The C++ program and the hosted HTML interface currently operate independently. The web interface does not automatically access the C++ program's data.
+
+---
+
+## ✨ KEY FEATURES
+
+### 💻 C++ APPLICATION
+
+- ➕ **Add Student** — enter student details and subject marks.
+- 📋 **Display Records** — view student information stored during the program's execution.
+- 🔍 **Search Student** — find a student using a roll number.
+- 📊 **Academic Information** — organize marks for Mathematics, Physics, and Chemistry.
+- 🔄 **Menu-Driven Navigation** — select operations through a simple console menu.
+
+### 🌐 WEB INTERFACE
+
+- Browser-accessible HTML page.
+- Public live demo hosted with GitHub Pages.
+- Shareable website link for demonstrations and project reviews.
+
+*Features listed above describe the intended C++ workflow and web interface. Their availability depends on the implementation in each component.*
 
 ---
 
 ## ⚙️ TECHNOLOGY STACK
 
-| Technology | Purpose |
+| Technology | Role |
 |:--|:--|
-| **C++** | Student management program and application logic |
+| **C++** | Console application and student record logic |
 | **HTML5** | Web interface |
-| **Git & GitHub** | Version control and source code hosting |
-| **GitHub Pages** | Web deployment |
+| **Git** | Version control |
+| **GitHub** | Source code hosting |
+| **GitHub Pages** | Static website deployment |
 
 ---
 
-## ✨ APPLICATION CAPABILITIES
-
-The C++ application is designed around a menu-driven workflow.
-
-- **Add Student** — enter student details and marks.
-- **Display Students** — view stored student records.
-- **Search Student** — locate a student by roll number.
-- **Academic Records** — organize marks across subjects.
-
-*The C++ application and HTML interface currently operate separately; student data is not automatically synchronized between them.*
-
----
-
-## 📁 REPOSITORY STRUCTURE
+## 🏗️ PROJECT STRUCTURE
 
 ```text
 student-management-system/
 │
 ├── index.html
 ├── student_management.cpp
+├── student-management-preview.png
 ├── README.md
 └── LICENSE
 ```
 
 ---
 
-## ▶️ RUN LOCALLY
+## 🚀 GETTING STARTED
 
-### Requirements
-- A C++ compiler such as GCC or MinGW.
-- A code editor or terminal.
+### 1. Clone the repository
 
-### Compile and run
+```bash
+git clone https://github.com/rajaryansharma56-dot/student-management-system.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd student-management-system
+```
+
+### 3. Compile the C++ application
+
+Make sure a C++ compiler such as GCC or MinGW is installed.
 
 **Windows (MinGW):**
 
@@ -96,17 +129,37 @@ g++ student_management.cpp -o student_management
 ./student_management
 ```
 
-To view the web interface, open `index.html` in a browser.
+### 4. Open the web interface
+
+Open `index.html` in your browser, or use the deployed website:
+
+**[Open Live Demo →](https://rajaryansharma56-dot.github.io/student-management-system/)**
 
 ---
 
-## 🔮 FUTURE IMPROVEMENTS
+## 🧠 CONCEPTS PRACTICED
 
-- Persistent student data storage.
-- Edit and delete student records.
-- Input validation and duplicate roll-number checks.
-- Academic performance summaries.
-- Integration between the web interface and application logic.
+- Arrays and indexed data storage
+- Loops and conditional logic
+- Menu-driven program design
+- User input and console output
+- Basic HTML page development
+- GitHub repository management
+- Static website deployment
+
+---
+
+## 🔭 FUTURE ROADMAP
+
+Potential improvements for future versions:
+
+- [ ] Edit and delete student records
+- [ ] Input validation and duplicate roll-number checks
+- [ ] Persistent storage using files or a database
+- [ ] Automatic calculation of totals, percentages, and grades
+- [ ] Responsive and more interactive web interface
+- [ ] Integration between the C++ backend and web frontend
+- [ ] Student performance dashboard and analytics
 
 ---
 
@@ -114,16 +167,26 @@ To view the web interface, open `index.html` in a browser.
 
 **Raj Aryan Sharma**
 
-Electronics & Instrumentation Engineering | C++ | Python | Electronics
+Electronics & Instrumentation Engineering
+
+**Interests:** C++ · Data Structures & Algorithms · Python · Electronics · Robotics
+
+<p align="left">
+  <a href="https://github.com/rajaryansharma56-dot">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+  </a>
+</p>
 
 ---
 
 ## 📜 LICENSE
 
-This project is distributed under the license included in this repository.
+Refer to the [`LICENSE`](./LICENSE) file for the licensing terms applicable to this project.
 
 ---
 
 <p align="center">
-  <strong>Built to learn. Designed to evolve.</strong>
+  <b>BUILD • LEARN • IMPROVE</b>
+  <br/>
+  <sub>A practical step forward in software development.</sub>
 </p>
